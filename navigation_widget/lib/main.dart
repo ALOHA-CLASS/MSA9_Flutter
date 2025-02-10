@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:navigation_widget/community/commnunity_screen.dart';
-import 'package:navigation_widget/first_screen.dart';
 import 'package:navigation_widget/home_screen.dart';
 import 'package:navigation_widget/main_screen.dart';
 import 'package:navigation_widget/user/user_screen.dart';
@@ -21,7 +20,6 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      // home: FirstScreen(),
       initialRoute: '/main',
       routes: {
         '/main'       : (context) => MainScreen(),
